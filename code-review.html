@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,19 +36,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="./cover.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4ff66e45b39d49436fe97d3fe27b9920.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7e34ecb6a0e7991f0346b0751d4a7c3f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4ff66e45b39d49436fe97d3fe27b9920.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-93fa5749095c2464a7fe83d2d5aee960.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-cbfe9299f5caab731b93668de05d1c8d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-93fa5749095c2464a7fe83d2d5aee960.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -360,7 +359,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#how-to-conduct-code-review" id="toc-how-to-conduct-code-review" class="nav-link active" data-scroll-target="#how-to-conduct-code-review"><span class="header-section-number">4.1</span> How to conduct code review</a>
   <ul class="collapse">
-  <li><a href="#the-4rs-of-code-review" id="toc-the-4rs-of-code-review" class="nav-link" data-scroll-target="#the-4rs-of-code-review">The 4Rs of code review</a></li>
+  <li><a href="#the-4rs-of-code-review" id="toc-the-4rs-of-code-review" class="nav-link" data-scroll-target="#the-4rs-of-code-review"><span class="header-section-number">4.1.1</span> The 4Rs of code review</a></li>
   </ul></li>
   <li><a href="#ensuring-the-fair-principles" id="toc-ensuring-the-fair-principles" class="nav-link" data-scroll-target="#ensuring-the-fair-principles"><span class="header-section-number">4.2</span> Ensuring the FAIR principles</a></li>
   <li><a href="#when-to-conduct-code-review" id="toc-when-to-conduct-code-review" class="nav-link" data-scroll-target="#when-to-conduct-code-review"><span class="header-section-number">4.3</span> When to conduct code review</a></li>
@@ -395,8 +394,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="4.1" class="anchored" data-anchor-id="how-to-conduct-code-review"><span class="header-section-number">4.1</span> How to conduct code review</h2>
 <p>When reviewing code, it is important to check if it runs without errors, is well-documented and follows best programming practice to remain reproducible in the long term and can be reused by other researchers. <strong>The</strong> <strong>4Rs of Code Review</strong> provide helpful guidance, particularly for code accompanying publications, but the same principles apply to standalone code or software. Additionally, the <strong>FAIR</strong> principles<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> support maintaining quality, transparency and reusability, which are essential for long-term accessibility and reliability of code (see <a href="intro.html" class="quarto-xref"><span>Chapter 1</span></a>).</p>
 <p>Remember, code review is also an opportunity to support learning and foster a positive, collaborative culture. To make your code review as helpful as possible (i) start with high-level feedback before diving into the details; (ii) give code examples to illustrate suggestions; (iii) keep comments open, respectful and directed at the code, not the author; and (iv) tie suggestions to principles like readability, maintainability, or performance rather than personal preference wherever possible.</p>
-<section id="the-4rs-of-code-review" class="level3">
-<h3 class="anchored" data-anchor-id="the-4rs-of-code-review">The 4Rs of code review</h3>
+<section id="the-4rs-of-code-review" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="the-4rs-of-code-review"><span class="header-section-number">4.1.1</span> The 4Rs of code review</h3>
 <ol type="1">
 <li><p><strong>Reported: Does the code match what is described in the manuscript/description?</strong></p>
 <p>For code linked to a publication, this means that the code matches the methodology in the manuscript, ensuring it performs as stated. Any discrepancies, such as differing model specifications, must beidentified and all relevant packages and version numbers should be specified for reproducibility. For standalone code, this means ensuring that the code aligns with the software stated purpose and functions as described.</p></li>
@@ -544,14 +543,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

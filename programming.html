@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,19 +71,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="./cover.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4ff66e45b39d49436fe97d3fe27b9920.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7e34ecb6a0e7991f0346b0751d4a7c3f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4ff66e45b39d49436fe97d3fe27b9920.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-93fa5749095c2464a7fe83d2d5aee960.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-cbfe9299f5caab731b93668de05d1c8d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-93fa5749095c2464a7fe83d2d5aee960.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -395,26 +394,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#structured-workflow-and-readable-code" id="toc-structured-workflow-and-readable-code" class="nav-link active" data-scroll-target="#structured-workflow-and-readable-code"><span class="header-section-number">3.1</span> Structured workflow and readable code</a>
   <ul class="collapse">
-  <li><a href="#have-a-consistent-programming-style" id="toc-have-a-consistent-programming-style" class="nav-link" data-scroll-target="#have-a-consistent-programming-style">Have a consistent programming style</a></li>
-  <li><a href="#sec-comment-your-code" id="toc-sec-comment-your-code" class="nav-link" data-scroll-target="#sec-comment-your-code">Comment your code</a></li>
-  <li><a href="#structure-your-scripts" id="toc-structure-your-scripts" class="nav-link" data-scroll-target="#structure-your-scripts">Structure your scripts</a></li>
+  <li><a href="#have-a-consistent-programming-style" id="toc-have-a-consistent-programming-style" class="nav-link" data-scroll-target="#have-a-consistent-programming-style"><span class="header-section-number">3.1.1</span> Have a consistent programming style</a></li>
+  <li><a href="#sec-comment-your-code" id="toc-sec-comment-your-code" class="nav-link" data-scroll-target="#sec-comment-your-code"><span class="header-section-number">3.1.2</span> Comment your code</a></li>
+  <li><a href="#structure-your-scripts" id="toc-structure-your-scripts" class="nav-link" data-scroll-target="#structure-your-scripts"><span class="header-section-number">3.1.3</span> Structure your scripts</a></li>
   </ul></li>
   <li><a href="#modular-and-functional-code" id="toc-modular-and-functional-code" class="nav-link" data-scroll-target="#modular-and-functional-code"><span class="header-section-number">3.2</span> Modular and functional code</a>
   <ul class="collapse">
-  <li><a href="#writing-your-first-function" id="toc-writing-your-first-function" class="nav-link" data-scroll-target="#writing-your-first-function">Writing your first function</a></li>
+  <li><a href="#writing-your-first-function" id="toc-writing-your-first-function" class="nav-link" data-scroll-target="#writing-your-first-function"><span class="header-section-number">3.2.1</span> Writing your first function</a></li>
   </ul></li>
   <li><a href="#sec-defensive-programming" id="toc-sec-defensive-programming" class="nav-link" data-scroll-target="#sec-defensive-programming"><span class="header-section-number">3.3</span> Defensive programming</a>
   <ul class="collapse">
-  <li><a href="#checking-the-behaviour-of-a-function" id="toc-checking-the-behaviour-of-a-function" class="nav-link" data-scroll-target="#checking-the-behaviour-of-a-function">Checking the behaviour of a function</a></li>
-  <li><a href="#testing-the-output-of-a-function" id="toc-testing-the-output-of-a-function" class="nav-link" data-scroll-target="#testing-the-output-of-a-function">Testing the output of a function</a></li>
-  <li><a href="#debugging-and-logging" id="toc-debugging-and-logging" class="nav-link" data-scroll-target="#debugging-and-logging">Debugging and logging</a></li>
+  <li><a href="#checking-the-behaviour-of-a-function" id="toc-checking-the-behaviour-of-a-function" class="nav-link" data-scroll-target="#checking-the-behaviour-of-a-function"><span class="header-section-number">3.3.1</span> Checking the behaviour of a function</a></li>
+  <li><a href="#testing-the-output-of-a-function" id="toc-testing-the-output-of-a-function" class="nav-link" data-scroll-target="#testing-the-output-of-a-function"><span class="header-section-number">3.3.2</span> Testing the output of a function</a></li>
+  <li><a href="#debugging-and-logging" id="toc-debugging-and-logging" class="nav-link" data-scroll-target="#debugging-and-logging"><span class="header-section-number">3.3.3</span> Debugging and logging</a></li>
   </ul></li>
   <li><a href="#reproducible-code" id="toc-reproducible-code" class="nav-link" data-scroll-target="#reproducible-code"><span class="header-section-number">3.4</span> Reproducible code</a>
   <ul class="collapse">
-  <li><a href="#write-portable-code" id="toc-write-portable-code" class="nav-link" data-scroll-target="#write-portable-code">Write portable code</a></li>
-  <li><a href="#dependency-management" id="toc-dependency-management" class="nav-link" data-scroll-target="#dependency-management">Dependency management</a></li>
-  <li><a href="#namespace-conflicts" id="toc-namespace-conflicts" class="nav-link" data-scroll-target="#namespace-conflicts">Namespace conflicts</a></li>
-  <li><a href="#other-considerations" id="toc-other-considerations" class="nav-link" data-scroll-target="#other-considerations">Other considerations</a></li>
+  <li><a href="#write-portable-code" id="toc-write-portable-code" class="nav-link" data-scroll-target="#write-portable-code"><span class="header-section-number">3.4.1</span> Write portable code</a></li>
+  <li><a href="#dependency-management" id="toc-dependency-management" class="nav-link" data-scroll-target="#dependency-management"><span class="header-section-number">3.4.2</span> Dependency management</a></li>
+  <li><a href="#namespace-conflicts" id="toc-namespace-conflicts" class="nav-link" data-scroll-target="#namespace-conflicts"><span class="header-section-number">3.4.3</span> Namespace conflicts</a></li>
+  <li><a href="#other-considerations" id="toc-other-considerations" class="nav-link" data-scroll-target="#other-considerations"><span class="header-section-number">3.4.4</span> Other considerations</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -449,7 +448,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>The mindset of good practice programming
+The mindset of good practice programming
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -459,8 +458,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>There are many general and language-specific guidelines and tips to write readable, maintainable and reproducible code. We list the most essential ones below.</p>
 <section id="structured-workflow-and-readable-code" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="structured-workflow-and-readable-code"><span class="header-section-number">3.1</span> Structured workflow and readable code</h2>
-<section id="have-a-consistent-programming-style" class="level3">
-<h3 class="anchored" data-anchor-id="have-a-consistent-programming-style">Have a consistent programming style</h3>
+<section id="have-a-consistent-programming-style" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="have-a-consistent-programming-style"><span class="header-section-number">3.1.1</span> Have a consistent programming style</h3>
 <p>Consistency improves readability and maintainability. It helps others to quickly understand your project’s logic and workflows.</p>
 <section id="follow-a-style-guide" class="level4">
 <h4 class="anchored" data-anchor-id="follow-a-style-guide">Follow a style guide</h4>
@@ -476,7 +475,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Using formatters and linters
+Using formatters and linters
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -510,8 +509,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h4 class="anchored" data-anchor-id="have-a-naming-convention">Have a naming convention</h4>
 <p>Just like when naming your files (see <a href="organising-projects.html" class="quarto-xref"><span>Chapter 2</span></a>), use clear and descriptive names for files, variables, functions and modules. The goal of a good naming convention is that it is immediately clear to the reader what is behind any file or object. For objects in your codebase, you can follow these tips:</p>
 <ul>
-<li><strong>Concise and Descriptive</strong>: Variable names are usually nouns and function names are verbs (see also in the next section).</li>
-<li><strong>Avoid Conflicts</strong>: Don’t use names of existing variables or functions unless you are intentionally extending or overriding them (e.g.&nbsp;when developing an R package or a new method in Julia).</li>
+<li><strong>Concise and descriptive</strong>: Variable names are usually nouns and function names are verbs (see also in the next section).</li>
+<li><strong>Avoid conflicts</strong>: Don’t use names of existing variables or functions unless you are intentionally extending or overriding them (e.g.&nbsp;when developing an R package or a new method in Julia).</li>
 <li><strong>Use consistent capitalisation rules</strong>: Each language community has a preferred naming style (e.g., <code>snake_case</code> for Python and R, <code>lowerCamelCase</code> for JavaScript).</li>
 <li><strong>Develop rules and document them</strong>: You can develop your own conventions where it is useful. This can include things like when and how to use abbreviations or rules on how you name your functions (e.g.&nbsp;you might want to prefix all your helper functions with <code>zzz_</code> to mark them as helper functions).</li>
 </ul>
@@ -521,7 +520,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Examples of good and bad object names
+Examples of good and bad object names
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -531,17 +530,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><code>temperature_readings</code>, <code>user_data</code>, <code>read_data</code>, <code>run_binomial_model</code></p>
 </div>
 </div>
-<p>It is good practice to establish and follow a naming convention throughout a project. It also helps to document your conventions and naming logic in the readme file of your project. This way, it is easy for collaborators to read and understand your code but also to contribute using the same style.</p>
+<p>It is good practice to establish and follow a naming convention throughout a project. It also helps to document your conventions and naming logic in the <code>README</code> file of your project. This way, it is easy for collaborators to read and understand your code but also to contribute using the same style.</p>
 </section>
 </section>
-<section id="sec-comment-your-code" class="level3">
-<h3 class="anchored" data-anchor-id="sec-comment-your-code">Comment your code</h3>
+<section id="sec-comment-your-code" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="sec-comment-your-code"><span class="header-section-number">3.1.2</span> Comment your code</h3>
 <p>An easy win for making code more readable and reproducible is the liberal and effective use of comments to provide context for human readers, which are ignored by the computer during execution of code. One good principle to adhere to is to comment on the ‘why’ rather than the ‘what’. The code itself tells the reader what is being done; it is far more important to document the reasoning behind a particular section of code.</p>
 <p>You can use inline comments for short explanations or block comments that span multiple lines to summarise sections of code or provide detailed explanations. Although different languages have different ways of denoting a comment Julia, Python and R all use a <code>#</code> at the start of a line to denote that it is a comment as opposed to code.</p>
 <p>Don’t forget to update your comments as your code evolves to avoid outdated or misleading information.</p>
 </section>
-<section id="structure-your-scripts" class="level3">
-<h3 class="anchored" data-anchor-id="structure-your-scripts">Structure your scripts</h3>
+<section id="structure-your-scripts" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="structure-your-scripts"><span class="header-section-number">3.1.3</span> Structure your scripts</h3>
 <p>Structure your scripts in a consistent and logical way so that readers can orient themselves easily in your codebase.</p>
 <p>Here are some things to consider:</p>
 <ul>
@@ -557,12 +556,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Example structure of R script for data analysis
+Example structure of R script for data analysis
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Purpose: Analyze climate data</span></span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Purpose: Analyze climate data</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Author: Jane Doe, John Doe</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># License: GPL-3.0-or-later</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Contact: jane.doe@email.com</span></span>
@@ -583,7 +582,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Analysis -------------------------------------------------------</span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Output results -------------------------------------------------</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Output results -------------------------------------------------</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -592,8 +591,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="modular-and-functional-code" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="modular-and-functional-code"><span class="header-section-number">3.2</span> Modular and functional code</h2>
 <p>One of the core principles in software development is DRY (<em>Don’t Repeat Yourself</em>) i.e., reduce any repetitive patterns or duplicates in your code in favour of creating modular and referenceable code. Although it may seem simpler to just copy and paste the same code over again when performing repetitive tasks, it means that every time you need to change something (or fix an error), you need to change it in every place the code has been copied to. Functions are a simple way to avoid this, as they allow you to break your code into modules, which allows you to repeat the same task in a standardised (and documented) manner. DRY functions are designed to execute a specific task and ensure a data analysis is correct. See <a href="#sec-defensive-programming" class="quarto-xref"><span>Section 3.3</span></a> for more information.</p>
-<section id="writing-your-first-function" class="level3">
-<h3 class="anchored" data-anchor-id="writing-your-first-function">Writing your first function</h3>
+<section id="writing-your-first-function" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="writing-your-first-function"><span class="header-section-number">3.2.1</span> Writing your first function</h3>
 <section id="documentation" class="level4">
 <h4 class="anchored" data-anchor-id="documentation">Documentation</h4>
 <p>When documenting your code, never assume that the reader knows the basics of what is going on; strive to explain things to a layperson. Document how a function works, what it does and how to use it. It is useful to think about creating two ‘levels’ of documentation. The first level is documentation that allows developers/collaborators to understand <em>what</em> the code does (this you can do with comments inside the function; see <a href="#sec-comment-your-code" class="quarto-xref"><span>Section 3.1.2</span></a>). The second level is documentation for those who will use the function and need to know <em>how</em> to use it. Python and Julia allow you to add ‘docstrings’ directly to a function but external tools such as <a href="https://www.doxygen.nl/">doxygen</a> or <a href="https://roxygen2.r-lib.org/">roxygen2</a> can create more complex documentation. Typically function descriptions are ‘exported’ with a function, act as metadata and are searchable; comments however are not and have to be viewed by looking at the original source code. Additionally, it may be useful to provide higher-level documentation as to how the functions integrate and work together (e.g.&nbsp;using a <code>README</code> file).</p>
@@ -611,7 +610,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Example
+Example
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -634,8 +633,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="sec-defensive-programming" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="sec-defensive-programming"><span class="header-section-number">3.3</span> Defensive programming</h2>
 <p>Defensive programming is all about anticipating errors and writing robust code. The aim is to ensure that when your code fails, it does so with well-defined errors and rests on the idea that we expect our code to fail. By applying a defensive programming philosophy (and adding checks and tests into the code), you can find unexpected behaviour sooner. Although this initially means more work, it will make debugging the code a lot easier later.</p>
-<section id="checking-the-behaviour-of-a-function" class="level3">
-<h3 class="anchored" data-anchor-id="checking-the-behaviour-of-a-function">Checking the behaviour of a function</h3>
+<section id="checking-the-behaviour-of-a-function" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="checking-the-behaviour-of-a-function"><span class="header-section-number">3.3.1</span> Checking the behaviour of a function</h3>
 <p>One aspect of a function you can check is that it is behaving as expected. This can include ensuring the data types are correct (e.g., is the input a number and not a character?), or testing the boundaries of the data (e.g., asserting that two dataframes are the same dimensions or contain the same variables). Since a function only does what is specified, it is important to specify what it should not do. It is also useful to include a defined error message should those checks fail, as it makes it easier to try and correct the error.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -643,7 +642,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Writing checks and good error messages
+Writing checks and good error messages
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -653,8 +652,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="testing-the-output-of-a-function" class="level3">
-<h3 class="anchored" data-anchor-id="testing-the-output-of-a-function">Testing the output of a function</h3>
+<section id="testing-the-output-of-a-function" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="testing-the-output-of-a-function"><span class="header-section-number">3.3.2</span> Testing the output of a function</h3>
 <p>By testing your code, you can catch edge cases and ensure that functions are working as intended and expected, even when users are using functions in unexpected ways. While the idea of developing tests may feel excessive when starting out with programming, it is valuable to be aware of these principles as they provide a conceptual basis from which you can develop code that meets the expectations associated with conducting ‘good’ science.</p>
 <section id="unit-tests" class="level4">
 <h4 class="anchored" data-anchor-id="unit-tests">Unit tests</h4>
@@ -665,7 +664,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Writing and running unit tests
+Writing and running unit tests
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -694,8 +693,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Test-driven development (TDD) is an approach to software development whereby tests are written before the code to identify the desired behaviour of the system. You write a small test that defines the desired functionality, write the minimum code necessary to pass that test and refactor the code to improve structure and performance. This ensures the reliability of your code by predefining the parameters and expected outputs before you even start programming up the project.</p>
 </section>
 </section>
-<section id="debugging-and-logging" class="level3">
-<h3 class="anchored" data-anchor-id="debugging-and-logging">Debugging and logging</h3>
+<section id="debugging-and-logging" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="debugging-and-logging"><span class="header-section-number">3.3.3</span> Debugging and logging</h3>
 <p>Debugging is the process of finding and resolving errors in code. Code that has well-thought-out checks and error messages should be easy to debug, as problems are already identified and isolated. Creating logs is a comprehensive way to document the behaviour of the entire workflow. Logs are usually created by an automated workflow that runs through and records events or messages (that you have specified) as it goes. This allows you to diagnose and troubleshoot issues. Log messages can also give information on the state of the workflow. Unless you are developing extremely complex workflows or packages, it might make sense to only log errors to aid in the debugging process.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -703,7 +702,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Debugging with an IDE
+Debugging with an IDE
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -721,22 +720,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Test reproducibility
+Test reproducibility
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>If you are unsure whether your project is reproducible, send it to a colleague or test it on a different machine.</p>
 </div>
 </div>
-<section id="write-portable-code" class="level3">
-<h3 class="anchored" data-anchor-id="write-portable-code">Write portable code</h3>
+<section id="write-portable-code" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="write-portable-code"><span class="header-section-number">3.4.1</span> Write portable code</h3>
 <p>To improve the portability of your code, avoid absolute paths and use relative paths instead, ensuring that the script is run from the project root folder.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Absolute path: Exists only on your machine</span></span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Absolute path: Exists only on your machine</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>absolute_path <span class="ot">&lt;-</span> <span class="st">"C:/Users/my_name/project_folder/data/species_dat.csv"</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Relative path: Exists within the project</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>relative_path <span class="ot">&lt;-</span> <span class="st">"data/species_dat.csv"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>relative_path <span class="ot">&lt;-</span> <span class="st">"data/species_dat.csv"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>You can immediately see the problem with absolute paths is that they only exist on one machine, while relative paths exist within the project no matter how the machine’s folders are organised.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -745,21 +744,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Avoid <code>setwd()</code> in R
+Avoid <code>setwd()</code> in R
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>Use RStudio projects to automatically set the working directory to the project directory. Use the <code>here</code> package<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> to construct paths relative to the project root:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A relative path built with the here package</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>project_path <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"species_dat.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A relative path built with the here package</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>project_path <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"species_dat.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>So, if your project’s root folder is called “fish-jaws” and it lives on your Documents, the output for this would look something like <code>Documents/fish-jaws/data/species_dat.csv</code> depending on your operating system.</p>
 </div>
 </div>
 </section>
-<section id="dependency-management" class="level3">
-<h3 class="anchored" data-anchor-id="dependency-management">Dependency management</h3>
+<section id="dependency-management" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="dependency-management"><span class="header-section-number">3.4.2</span> Dependency management</h3>
 <p>Documenting and managing dependencies are essential for reproducibility because the software changes over time. If you, for example, wrote your code with a recent version of an R package and gave it to someone who has not upgraded recently, they may not be able to run your code, or they might get different results.</p>
 <p>Dependency management can be done in a lot of ways. Below, you will find three levels of complexity to document the dependencies for your projects.</p>
 <section id="show-packages-that-you-used" class="level4">
@@ -771,7 +770,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Find dependencies of your project
+Find dependencies of your project
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -792,20 +791,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Create project local libraries
+Create project local libraries
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>In <strong>R</strong>, you can use the <code>renv</code> package<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> to manage dependencies. Initialise <code>renv</code> in your project:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"renv"</span>)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">init</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"renv"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">init</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>In <strong>Python</strong>, you can use <code>pip</code> and <code>venv</code> to manage dependencies. Specifically, <code>venv</code> (a standard package shipped with Python 3<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> supports lightweight ‘virtual environments’ that hosts its own set of independent packages. Here’s the command for creating a virtual environment and install packages within that environment with <code>pip</code> (which are listed in a file named <code>requirements.txt</code>):</p>
+<p>In <strong>Python</strong>, you can use <code>pip</code> and <code>venv</code> to manage dependencies. Specifically, <code>venv</code> (a standard package shipped with Python 3<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>) supports lightweight ‘virtual environments’ that hosts its own set of independent packages. Here’s the command for creating a virtual environment and install packages within that environment with <code>pip</code> (which are listed in a file named <code>requirements.txt</code>):</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv env</span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv env</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> env/bin/activate  <span class="co"># On Windows use `env\Scripts\activate`</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>In <strong>Julia</strong>, you can use the built-in package manager. Create a <code>Project.toml</code> file and activate the environment:</p>
 <pre><code>using Pkg
@@ -820,8 +819,8 @@ Pkg.instantiate()</code></pre>
 <p>For R, the <a href="https://rocker-project.org/">Rocker</a> project helps you provide container images with popular R software and optimized libraries pre-installed.</p>
 </section>
 </section>
-<section id="namespace-conflicts" class="level3">
-<h3 class="anchored" data-anchor-id="namespace-conflicts">Namespace conflicts</h3>
+<section id="namespace-conflicts" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="namespace-conflicts"><span class="header-section-number">3.4.3</span> Namespace conflicts</h3>
 <p>Using multiple packages can result in namespace conflicts, where different packages have functions with the same name. This can lead to unexpected behaviour in your code. It is good practice to prefix functions with the package name to avoid this and make the dependency explicit.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -829,17 +828,17 @@ Pkg.instantiate()</code></pre>
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Example of avoiding namespace conflicts
+Example of avoiding namespace conflicts
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>In <strong>R</strong>, if both <code>dplyr</code> and <code>plyr</code> have a function called <code>summarise</code>. You can make R use the <code>dplyr</code> version either by using <code>dplyr::</code> or the use function:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">summarize</span>(data, <span class="at">mean_value =</span> <span class="fu">mean</span>(value))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">summarize</span>(data, <span class="at">mean_value =</span> <span class="fu">mean</span>(value))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>or</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">use</span>(<span class="st">"dplyr"</span>, <span class="fu">c</span>(<span class="st">"summarise"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">use</span>(<span class="st">"dplyr"</span>, <span class="fu">c</span>(<span class="st">"summarise"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>In <strong>Python</strong>, if both <code>pandas</code> and numpy have a function called <code>mean</code>:</p>
 <pre><code>import pandas as pd
@@ -855,8 +854,8 @@ mean_value = Statistics.mean(data)</code></pre>
 </div>
 </div>
 </section>
-<section id="other-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="other-considerations">Other considerations</h3>
+<section id="other-considerations" class="level3" data-number="3.4.4">
+<h3 data-number="3.4.4" class="anchored" data-anchor-id="other-considerations"><span class="header-section-number">3.4.4</span> Other considerations</h3>
 <p><strong>Set a seed</strong>: A random seed is a number used to start a random number generator. Explicitly setting a random seed ensures reproducibility as the random number generation will start at the same point. This is important when your code involves random number generation, which often occurs in some statistical modelling. For this, in R you can use <code>set.seed(123)</code> or use the <code>withr</code> package, in Python you can use <code>random.seed(123)</code> and in Julia you can use <code>Random.seed!(123)</code>.</p>
 
 
@@ -941,14 +940,13 @@ mean_value = Statistics.mean(data)</code></pre>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
