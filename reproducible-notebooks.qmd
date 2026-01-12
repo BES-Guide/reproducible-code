@@ -46,11 +46,11 @@ Below the YAML block, you write your main content using Markdown, a simple way t
 A code chunk is a special block where you write code, and Quarto will run it and show the results in your document. Code chunks start and end with three backticks (\`\`\`) and the language you are using:
 
 ````
-```Python
-
+```{{python}}
 import matplotlib.pyplot as plt
 
-plt.plot([1,lt.show()])
+plt.plot([1, 3, 2])
+plt.show()
 ```
 ````
 
@@ -63,11 +63,12 @@ You can also add options to your code chunk. For example, adding `echo: false` a
 When your code creates a plot or image, Quarto automatically includes it as a *figure*. You can add a caption, a short description under the figure, and a label, a name you use to refer to the figure later, by adding special lines at the top of your code chunk. For example:
 
 ````
-```
-#\| label: fig-simple
-#\| fig-cap: "A simple line plot"
-#\| fig-alt: "Here is where to put alt text"
-plt.plot([1,lt.show()])
+```{{python}}
+#| label: fig-simple
+#| fig-cap: "A simple line plot"
+#| fig-alt: "Here is where to put alt text"
+plt.plot([1, 3, 2])
+plt.show()
 ```
 ````
 
@@ -78,14 +79,16 @@ This will show the plot with the caption "A simple line plot" underneath; you ca
 You can also create tables from your data using code. Quarto will display the table in your document, and you can add captions and labels just like with figures. For example, if you are using Python with the `pandas` library, you can create a small data table and show it in your notebook like this:
 
 ````
-```
-#\| label: tbl-sample
-#\| tbl-cap: "Example of a simple data table"
+```{{python}}
+#| label: tbl-sample
+#| tbl-cap: "Example of a simple data table"
 import pandas as pd
 
 data = {
     "Species": ["Oak", "Pine", "Birch"],
-    "Height_m": [20, = pd.DataFrame(data)]}
+    "Height_m": [20, 15, 10],
+}
+df = pd.DataFrame(data)
 df
 ```
 ````
