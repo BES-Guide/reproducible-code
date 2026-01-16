@@ -98,8 +98,7 @@ Here are some things to consider:
 ::: {.callout-tip}
 ### Example structure of R script for data analysis
 
-```{r}
-#| eval: false
+```r
 # Purpose: Analyze climate data
 # Author: Jane Doe, John Doe
 # License: GPL-3.0-or-later
@@ -236,8 +235,7 @@ If you are unsure whether your project is reproducible, send it to a colleague o
 
 To improve the portability of your code, avoid absolute paths and use relative paths instead, ensuring that the script is run from the project root folder.
 
-```{r}
-#| eval: false
+```r
 # Absolute path: Exists only on your machine
 absolute_path <- "C:/Users/my_name/project_folder/data/species_dat.csv"
 
@@ -252,8 +250,7 @@ You can immediately see the problem with absolute paths is that they only exist 
 
 Use RStudio projects to automatically set the working directory to the project directory. Use the `here` package[^11] to construct paths relative to the project root: 
 
-```{r}
-#| eval: false
+```r
 # A relative path built with the here package
 project_path <- here::here("data", "species_dat.csv")
 ```
@@ -288,16 +285,14 @@ Create a local library with the packages used in the project. This way, users do
 
 In **R**, you can use the `renv` package[^12] to manage dependencies. Initialise `renv` in your project:
 
-```{r}
-#| eval: false
+```r
 install.packages("renv")
 renv::init()
 ```
 
 In **Python**, you can use `pip` and `venv` to manage dependencies. Specifically, `venv` (a standard package shipped with Python 3[^13]) supports lightweight ‘virtual environments’ that hosts its own set of independent packages. Here’s the command for creating a virtual environment and install packages within that environment with `pip` (which are listed in a file named `requirements.txt`):
 
-```{bash}
-#| eval: false
+```bash
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
@@ -305,7 +300,7 @@ pip install -r requirements.txt
 
 In **Julia**, you can use the built-in package manager. Create a `Project.toml` file and activate the environment:
 
-```
+```julia
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
@@ -327,21 +322,19 @@ Using multiple packages can result in namespace conflicts, where different packa
 
 In **R**, if both `dplyr` and `plyr` have a function called `summarise`. You can make R use the `dplyr` version either by using `dplyr::` or the use function:
 
-```{r}
-#| eval: false
+```r
 dplyr::summarize(data, mean_value = mean(value))
 ```
 
 or 
 
-```{r}
-#| eval: false
+```r
 use("dplyr", c("summarise"))
 ```
 
 In **Python**, if both `pandas` and numpy have a function called `mean`:
 
-```
+```python
 import pandas as pd
 import numpy as np
 
@@ -351,7 +344,7 @@ mean_array = np.mean(array)
 
 In **Julia**, if both `DataFrames` and `Statistics` have a function called `mean`:
 
-```
+```julia
 using DataFrames
 using Statistics
 

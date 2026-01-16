@@ -2,10 +2,6 @@ project:
   type: book
   output-dir: _book
 
-execute:
-  eval: false
-  freeze: auto
-
 book:
   title: "BES Guide to Reproducible Code"
   reader-mode: true
@@ -17,7 +13,7 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: cover.jpg
   favicon: cover.jpg
-  site-url: https://github.com/BES-Guide/reproducible-code
+  site-url: https://bes-guide.github.io/reproducible-code/
   repo-url: https://github.com/BES-Guide/reproducible-code
   repo-branch: main
   chapters:
@@ -38,6 +34,6 @@ format:
       dark: darkly
     respect-user-color-scheme: true
     code-link: true
-    author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund"
+    author-meta: "Natalie Cooper and Pen-Yuan Hsing"
     callout-appearance: simple
     number-depth: 3

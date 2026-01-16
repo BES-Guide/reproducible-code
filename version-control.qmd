@@ -33,7 +33,7 @@ To get started, you will need to download and [Git](https://git-scm.com/download
 
 Once installed, configure Git with your name and email address so that this information can be added to your version history. This can be done with the graphical programs or on the command line. To access the command line in Windows use Windows Terminal or Command Prompt, in Mac/Linux use Terminal. You can also use the Terminal tab in RStudio or VS Code in any operating system. Enter the following three lines of code: 
 
-```{bash}
+```bash
 git config --global user.name "Your Name"
 git config --global user.email your.email@domain.com
 git config --global credential.helper "store"
@@ -41,7 +41,7 @@ git config --global credential.helper "store"
 
 Once this is done, users can check if it has been configured correctly with: 
 
-```{bash}
+```bash
 git config --global --list
 ```
 

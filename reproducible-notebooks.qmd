@@ -26,7 +26,7 @@ Every Quarto document starts with a YAML block at the very top, which is used to
 
 The YAML block is surrounded by three dashes at the top and bottom:
 
-```{yaml}
+```yaml
 ---
 title: "My First Quarto Document"
 author: "Your Name"
