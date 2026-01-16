@@ -1,1 +1,1 @@
-Sitemap: https://github.com/BES-Guide/reproducible-code/sitemap.xml
+Sitemap: https://bes-guide.github.io/reproducible-code/sitemap.xml
